@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student| transcript</title>
+    <style>
+        .transcript{
+          height:auto;
+          width:54vw;
+          margin:0 auto;
+          font-weight:bold;
+        }
+        .transcript-head{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        border-bottom: 2px solid gray
+        }
+        .campus-logo{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .campus-college-name{
+
+        }
+        .transcript-subhead{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            padding-top: 10px;
+        }
+        .school-detail{
+
+        }
+        .student-picture{
+
+        }
+        .student-detail-table table{
+         width:100%;
+         text-align:center;
+         margin-bottom:20px;
+        }
+       
+        .academic-year-table table{
+         margin-bottom:20px;
+         width:100%;
+        }
+        .marks-table table{
+        
+         width:100%;
+        }
+        .deliberation-table table{
+         
+          width:100%;
+        }
+        .chiefs-signatures{
+            display:flex;
+            flex-direction:column;
+        }
+        .signatures{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="transcript">
+       <div class="transcript-head">
+          <div class="campus-logo">
+            <img src="../public/images/logo_for_ur.jpg"  width="120" height="120" alt="">
+            <span style="color:darkblue"><em>UNIVERSITY of RWANDA</em></span>
+          </div>
+          <div class="campus-college-name">
+           <h3>College of science and Technology</h3>  
+          </div>
+       </div>
+       <div class="transcript-subhead">
+            <div class="school-detail">
+            <h3>SCHOOL OF ICT</h3>
+              <h3>DAPARTMENT OF COMPUTER SCIENCE</h3>
+              <h3>PROVISIONAL STATEMENT OF RESULT</h3>
+            </div>
+            <div class="student-picture">
+              <img src="../public/images/Jay_Dee_Nanone_nanone.PNG" width="120" height="120" alt="">
+            </div>
+       </div>
+       <div class="student-detail-table">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Registration Number</th>
+                    <th>Date of Birth</th>
+                    <th>Statement Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>UWINEZA JOSEPH</td>
+                    <td>218000597</td>
+                    <td>1-Jan-1997</td>
+                    <td>CS/019/0014</td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+       <div class="academic-year-table">
+        <table border="1">
+            <tr>
+                <td colspan="6" align="center" >THIRD YEAR</td>
+                <td colspan="6" align="center" >2019-2020</td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">FIRST SEMESTER</td>
+                <td colspan="6" align="center">SECOND SEMESTER</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">MODULE CODE AND NAME</td>
+                <td>CREDIT</td>
+                <td>MARKS</td>
+                <td>GRADE</td>
+                <td colspan="3" align="center">MODULE CODE AND NAME</td>
+                <td>CREDIT</td>
+                <td>MARKS</td>
+                <td>GRADE</td>
+            </tr>
+        </table>
+       </div>
+       <div class="marks-table">
+         <!-- This is where to put dynamic marks data -->
+         <table border="1">
+             <tr>
+                 <td style="width:20%">CSC3161:Computer networking</td>
+                 <td style="width:10%">10</td>
+                 <td style="width:10%">81</td>
+                 <td style="width:10%">A</td>
+                 <td style="width:20%">CSC3162:Data Mining and Warehousing</td>
+                 <td style="width:10%"> 10</td>
+                 <td style="width:10%">76</td>
+                 <td style="width:10%">B</td>
+             </tr>
+         </table>
+       </div>
+       <div class="deliberation-table">
+            <table border="1">
+                <tr>
+                    <td style="width:50%">Total Credits Points</td>
+                    <td style="width:50%">100</td>
+                </tr>
+                <tr>
+                    <td style="width:50%">Total Credits Accumulated</td>
+                    <td style="width:50%">100</td>
+                </tr>
+                <tr>
+                    <td style="width:50%">Average</td>
+                    <td 
+                    style="width:50%">100</td>
+                </tr>
+                <tr>
+                    <td>Remarks</td>
+                    <td>Progress</td>
+                </tr>
+            </table>
+       </div>
+       <div class="chiefs-signatures">
+           <div class="signatures">
+              <div class="hod-signature">
+                <h3>Head of department</h3>
+                <img src="../public/images/hod_signature.PNG" alt="" srcset="">
+              </div>
+              <div class="dean-signature">
+                <h3>Dean, School of ICT</h3>
+                <img src="../public/images/dean_signature.PNG" alt="" srcset="">
+              </div>
+           </div>
+           <div class="date-of-issue">
+           <p>Date: 7-may-2021</p>
+           </div>
+       </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

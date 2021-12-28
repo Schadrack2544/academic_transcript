@@ -1,0 +1,23 @@
+body{
+    background:#123;
+}
+.login-form{
+   width:800px;
+   height: auto;
+   min-width:65vw;
+   margin:100px auto;
+   padding:20px;
+   background-color: #fff;
+}
+#email,#password,input,select{
+   padding:8px;
+   color:black;
+   width:94%;
+   margin-right:20px;
+}
+#login-btn{
+   background-color:#347931;
+   padding:5px;
+   width:80px;
+   border-radius:9999px
+}
